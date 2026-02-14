@@ -8,7 +8,6 @@ const AuthForm = () => {
 
   return (
     <div className="min-h-[calc(100vh-64px)] bg-gray-50 px-4 py-8 sm:py-12 flex items-center justify-center">
-      {/* Container like ShopFlow */}
       <div className="w-full max-w-5xl mx-auto">
         <div className="grid lg:grid-cols-12 gap-6 items-stretch">
           {/* Left side (title / hint) */}
@@ -39,7 +38,7 @@ const AuthForm = () => {
           {/* Right side (auth card) */}
           <div className="lg:col-span-7">
             <div className="relative rounded-3xl bg-white shadow-sm ring-1 ring-black/5 overflow-hidden">
-              {/* Optional blur header strip (ShopFlow-ish) */}
+              {/* Optional blur header strip */}
               <div className="sticky top-0 z-10 bg-white/70 backdrop-blur-xl border-b border-gray-200 px-6 sm:px-8 py-4">
                 <div className="flex items-center justify-between">
                   <p className="text-sm font-semibold text-gray-900">
@@ -143,7 +142,6 @@ const AuthForm = () => {
                 </div>
               </div>
 
-              {/* Bottom toggle (mobile-friendly, like ShopFlow footer vibe) */}
               <div className="border-t border-gray-200 px-6 sm:px-8 py-4 text-sm text-gray-700">
                 <span>
                   {isSignInForm
