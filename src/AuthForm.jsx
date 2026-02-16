@@ -22,7 +22,7 @@ const AuthForm = () => {
               </h1>
 
               <p className="mt-3 text-sm sm:text-base text-gray-600 leading-relaxed">
-                A clean, responsive authentication UI in the same design language as ShopFlow:
+                A clean, responsive authentication UI in the same design language as <a class="no-underline text-blue-600 hover:text-blue-800 dark:text-sky-400 text" href="https://mehdi-filban.github.io/shopflow/">ShopFlow</a>:
                 soft shadows, rounded corners, and crisp focus states.
               </p>
 
